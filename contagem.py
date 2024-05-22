@@ -1,7 +1,16 @@
+import os
+import time
+
+
 # usuário informa um número 
 contador = int(input('informe um numero inteiro: '))
+os.system('cls')
 
-# conta a partir do número informado  até 0
+ # conta a partir do número informado  até 0
 while contador >= 0:
-    print(contador)
-    contador -= 1
+ print(f'Contagem regressiva: {contador}...')
+ time.sleep(1)
+ os.system('cls')
+ contador -= 1
+
+print('BOMMMM!!!')
